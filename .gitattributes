@@ -1,1 +1,2 @@
 *.dta filter=lfs diff=lfs merge=lfs -text
+data/counters/panelAll.dta filter=lfs diff=lfs merge=lfs -text
