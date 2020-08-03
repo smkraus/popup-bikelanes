@@ -1,0 +1,16 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{S}}
+\toprule
+          &\multicolumn{4}{c}{Outcome: Cyclist count}                                 \\\cmidrule(lr){2-5}
+          &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+          &\multicolumn{1}{c}{\shortstack{All km}}&\multicolumn{1}{c}{\shortstack{Bike lane km}}&\multicolumn{1}{c}{\shortstack{Num of measures}}&\multicolumn{1}{c}{\shortstack{Any treatment}}\\
+\midrule
+Pop-up treatment&    0.006\sym{**} &    0.007\sym{**} &    0.004\sym{*}  &    0.061\sym{*}  \\
+          &  (0.003)         &  (0.003)         &  (0.002)         &  (0.036)         \\
+\midrule
+City clusters&\multicolumn{1}{c}{78}         &\multicolumn{1}{c}{78}         &\multicolumn{1}{c}{78}         &\multicolumn{1}{c}{78}         \\
+N         &\multicolumn{1}{c}{59904}         &\multicolumn{1}{c}{59904}         &\multicolumn{1}{c}{59904}         &\multicolumn{1}{c}{59904}         \\
+\bottomrule
+\end{tabular}
+}
