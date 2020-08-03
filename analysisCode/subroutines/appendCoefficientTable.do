@@ -44,9 +44,9 @@ replace city_week_fe = 0 if city_week_fe != 1
 g city_cWeek_fe = 1 if strpos(cmdline,"urau_code_factor#calendarWeek")
 replace city_cWeek_fe = 0 if city_cWeek_fe != 1
 
-g city_cMonth_fe = 1 if strpos(cmdline,"urau_code_factor#calendarMonth")
+/* g city_cMonth_fe = 1 if strpos(cmdline,"urau_code_factor#calendarMonth")
 replace city_cMonth_fe = 0 if city_cMonth_fe != 1
-
+ */
 g state_week_fe = 1 if strpos(cmdline,"GID_1_factor#week_year")
 replace state_week_fe = 0 if state_week_fe != 1
 

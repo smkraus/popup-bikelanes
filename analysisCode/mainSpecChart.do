@@ -43,14 +43,14 @@ $appendTable
 ppmlhdfe count implementedKM, abs(counter_id urau_code_factor#calendarWeek) cluster(urau_code)
 $appendTable
 
-// Calendar month coutry-day
+/* // Calendar month coutry-day
 ppmlhdfe count implementedKM, abs(counter_id urau_code_factor#calendarMonth country#day) cluster(urau_code)
 $appendTable
 
 // Calendar month
 ppmlhdfe count implementedKM, abs(counter_id urau_code_factor#calendarMonth) cluster(urau_code)
 $appendTable
-
+ */
 // Treated only
 ppmlhdfe count implementedKM x2m_temperature uv_radiation x10m_u_component_of_wind x10m_v_component_of_wind total_precipitation mobility numCounters if treated == 1, abs(counter_id day) cluster(urau_code)
 $appendTable
