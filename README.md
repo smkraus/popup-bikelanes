@@ -13,6 +13,6 @@ Dependencies in R are installed directly within the respective scripts. Stata de
 ## Data
 The final panel for the replication of our results can be found at `data/counters/panelAll.dta`
 
-Raw data is from municipal bike counter APIs and the [European Cyclists' Federation's](https://ecf.com/) [COVID 19 Measures Tracker](https://datastudio.google.com/u/0/reporting/ba90a08c-9841-4beb-9e26-7d4f7d002709/page/yMRTB).
+Raw data is from municipal bike counter APIs, which we access either directly through cities' Open Data Portals or using the [Eco-Counter-Client](https://github.com/derhuerst/eco-counter-client), and the European Cyclists' Federation's [COVID 19 Measures Tracker](https://datastudio.google.com/u/0/reporting/ba90a08c-9841-4beb-9e26-7d4f7d002709/page/yMRTB).
 
 
