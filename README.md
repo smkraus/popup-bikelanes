@@ -6,7 +6,7 @@ This repository contains code and data necessary to replicate the findings of [K
 ## Dependencies
 Dependencies in R are installed directly within the respective scripts. Stata dependencies can be installed with:
 
-`ssc install ppmlhdfe`
+`ssc install ppmlhdfe`\ 
 `ssc install gtools`
 
 ## Data
