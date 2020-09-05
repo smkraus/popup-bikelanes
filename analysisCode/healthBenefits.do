@@ -117,8 +117,8 @@ g dailyAdditionalCyclingKMpp = bikeKMDay * 0.006 * implementedKMMax
 g additionalCyclingNow = dailyAdditionalCyclingKMpp * popRecentMin * 90
 g additionalCyclingYear = dailyAdditionalCyclingKMpp * popRecentMin * 365
 
-g socialBenefitsNow = 0.62*additionalCyclingNow
-g socialBenefitsYear = 0.62*additionalCyclingYear
+g socialBenefitsNow = 0.45*additionalCyclingNow
+g socialBenefitsYear = 0.45*additionalCyclingYear
 
 replace urau_name = subinstr(urau_name,"City of ","",.)
 replace urau_name = subinstr(urau_name,"M. ","",.)

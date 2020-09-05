@@ -3,6 +3,9 @@
 # Ignore folders with old files
 *_old/
 
+# Ignore submission docs
+/_submission/
+
 # Ignore licensed data
 /data/
 

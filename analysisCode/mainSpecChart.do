@@ -96,10 +96,11 @@ g event_t = day - firstTreatDay
 tostring event_t,g(event_t_str)
 encode event_t_str,gen(event_t_factor)
 
+* replace event_t = -1 if treated == 0
+
 g postEvent = 1 if inrange(event_t,0,.)
 replace postEvent = 0 if event_t < 0 
 
-replace event_t = -1 if treated == 0
 ppmlhdfe count c.implementedKM#postEvent x2m_temperature uv_radiation x10m_u_component_of_wind x10m_v_component_of_wind total_precipitation mobility numCounters, abs(counter_id day) cluster(urau_code)
 $appendTable
 

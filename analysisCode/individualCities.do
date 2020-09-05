@@ -51,8 +51,6 @@ replace urau_name = subinstr(urau_name,"M. ","",.)
 
 replace urau_name = "București" if urau_name == "MUNICIPIUL BUCURESTI"
 
-drop if inlist(urau_name,"Camden","Hackney")
-
 keep if inlist(year,2019,2020)
 
 save "data\counters\countURAULines.dta",replace
